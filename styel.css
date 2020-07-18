@@ -1,0 +1,30 @@
+body *{
+    font-family: 'Noto Sans Myanmar UI',arial,sans-serif;
+}
+body{
+    margin: 0px;
+}
+#g, #gg{
+    color: blue;
+}
+#o, #e{
+    color: red;
+}
+#oo{
+    color: yellow;
+}
+#l{
+    color: green;
+}
+.dicision{
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    height: 400px;
+    border: 1px solid;
+    width: 37%;
+    border-radius: 15px;
+    margin: auto;
+    padding: 50px;
+}
