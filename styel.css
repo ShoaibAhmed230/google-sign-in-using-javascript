@@ -1,17 +1,46 @@
 body *{
     font-family: 'Noto Sans Myanmar UI',arial,sans-serif;
 }
+.email i{
+    color: red;
+}
+.note{
+    color: red;
+}
+.note{
+    display: none;
+}
+.email i{
+    display: none;
+}
+.fxemail{
+    border: red;
+}
+.google-sign-in{
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: -4px;
+}
 body{
     margin: 0px;
 }
+.heading{
+    text-align: center;
+    font-size: 12px;
+    color: #202124;
+    margin: 10px;
+}
+.heading span{
+    font-size: 24px;
+}
 #g, #gg{
-    color: blue;
+    color: #4285f4;
 }
 #o, #e{
     color: red;
 }
 #oo{
-    color: yellow;
+    color: #FBBC05;
 }
 #l{
     color: green;
@@ -21,10 +50,116 @@ body{
     justify-content: space-between;
 }
 form{
-    height: 400px;
-    border: 1px solid;
-    width: 37%;
+    height: 430px;
+    border: 1px solid #DADCE0;
+    width: 36%;
     border-radius: 15px;
     margin: auto;
     padding: 50px;
+    margin-top: 85px;
 }
+.fxemail{
+    width: 100%;
+    height: 53px;
+    border: 1px solid #DADCE0;
+    border-radius: 4px;
+    padding: 0px 7px;
+    font-size: 15px;
+}
+.inform{
+    color:#27272A;
+    text-align: center;
+}
+.suggestion{
+    margin: 10px 0px;
+}
+.suggestion a{
+    text-decoration: none;
+}
+.suggestion span{
+    color: #1A73E8;
+    font-weight: bolder;
+}
+.sentence{
+    color: #676B70;
+    margin-top: 40px;
+
+}
+.sentence a{
+    text-decoration: none;
+}
+.sentence span{
+    color: #1A73E8;
+    font-weight: bolder;
+}
+.sentence p{  
+    margin-bottom: 4px;
+}
+.dicision a{
+    color: #1A73E8;
+    font-weight: bolder;
+    margin: 46px 0px;
+    text-decoration: none;
+}
+.dicision input{
+    background-color: #1A73E8;
+    color: white;
+    border: none;
+    padding: 9px 25px;
+    border-radius: 3px;
+}
+input:active{
+    border: none;
+}
+input:hover{
+    cursor: pointer;
+}
+.lastline{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 1px;
+    width: 80%;
+    margin: auto;
+
+}
+.eng span, .abt span{
+    font-size: 12px;
+    color: #393A3C;
+}
+.eng i{
+    font-size: 12px;
+    color: #393A3C;
+}
+.abt span{
+    padding: 5px;
+}
+.hint{
+   text-align: center;
+    color: #fff;
+    width: 100%;
+}
+.hint strong{
+    background: #DADCE0;
+
+}
+@media screen and (max-width:480px){
+    form{
+        margin: 10px;
+        width: unset;
+        padding: 30px;
+    }
+    .lastline{
+        margin: 0px;
+        width: 97%;
+    }
+}
+#emailname{
+    border: 1px solid #DADCE0;
+    border-radius: 20px;
+    padding: 6px;
+    color: #3C4043;
+    margin: 20px 18px;
+    text-align: center;
+    width: 85%;
+}
+
