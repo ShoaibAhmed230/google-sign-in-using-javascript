@@ -1,5 +1,5 @@
 body *{
-    font-family: 'Noto Sans Myanmar UI',arial,sans-serif;
+    font-family:'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
 }
 .email i{
     color: red;
@@ -108,9 +108,9 @@ form{
     padding: 9px 25px;
     border-radius: 3px;
 }
-input:active{
+/* input:active{
     border: none;
-}
+} */
 input:hover{
     cursor: pointer;
 }
@@ -142,6 +142,13 @@ input:hover{
     background: #DADCE0;
 
 }
+/* @media screen and (min-width:481px){
+    #emailname{
+        margin: 20px 17px!important;
+        width: 82%!important;
+        margin-bottom: 50px!important;
+    }
+} */
 @media screen and (max-width:480px){
     form{
         margin: 10px;
@@ -152,14 +159,20 @@ input:hover{
         margin: 0px;
         width: 97%;
     }
-}
-#emailname{
-    border: 1px solid #DADCE0;
-    border-radius: 20px;
-    padding: 6px;
-    color: #3C4043;
-    margin: 20px 18px;
-    text-align: center;
-    width: 85%;
-}
 
+    #emailname{
+        border: 1px solid #DADCE0;
+        border-radius: 20px;
+        padding: 6px;
+        color: #3C4043;
+        margin: 20px 18px;
+        text-align: center;
+        width: 85%;
+        margin-bottom: 50px;
+
+    }
+    img{
+        width: 10%!important;
+    }
+
+}
