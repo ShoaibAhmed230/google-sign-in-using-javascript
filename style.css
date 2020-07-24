@@ -90,7 +90,8 @@ form{
     font-size: 14px;
 }
 .fxemail:focus {
-    border: royalblue;
+    border-color: royalblue;
+    outline: royalblue;
 }
 .inpsec .fxemail:focus + .lablenam{
     top: -8px;
