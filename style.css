@@ -113,7 +113,7 @@ form{
 }
 .suggestion span{
     color: #1A73E8;
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
 .sentence{
     color: #676B70;
@@ -125,7 +125,7 @@ form{
 }
 .sentence span{
     color: #1A73E8;
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
 .sentence p{  
     margin-bottom: 4px;
@@ -133,7 +133,7 @@ form{
 }
 .dicision a{
     color: #1A73E8;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     margin: 46px 0px;
     text-decoration: none;
 }
