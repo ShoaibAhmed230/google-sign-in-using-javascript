@@ -1,8 +1,12 @@
 body *{
     font-family:'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
 }
+.errspn{
+    margin-top: 43px;
+}
 .email i{
     color: red;
+    margin-right: 7px;
 }
 .note{
     color: red;
@@ -59,12 +63,43 @@ form{
     margin-top: 85px;
 }
 .fxemail{
-    width: 100%;
+    width: 35%;
     height: 53px;
     border: 1px solid #DADCE0;
     border-radius: 4px;
     padding: 0px 7px;
     font-size: 15px;
+ 
+}
+@media screen and (max-width:480px){
+    .fxemail{
+        width: 70%;
+    }
+}
+.inpsec .fxemail{
+    position: absolute;
+}
+.inpsec .lablenam{
+    
+    color: #6e6e6e;
+    position: relative;
+    top: 18px;
+    left: 12px;
+    background: #ffffff;
+    transition: 0.15s;
+    font-size: 14px;
+}
+.fxemail:focus {
+    border: royalblue;
+}
+.inpsec .fxemail:focus + .lablenam{
+    top: -8px;
+    left: 8px;
+    padding: 0 4px;
+    font-size: 12px;
+    color: #1A73E8;
+    border-color: 1px solid royalblue;
+
 }
 .inform{
     color:#27272A;
@@ -162,8 +197,7 @@ input:hover{
         width: 97%;
     }
 }    
-
-    #emailname{
+  #emailname{
         border: 1px solid #DADCE0;
         border-radius: 20px;
         padding: 6px;
@@ -173,10 +207,10 @@ input:hover{
         width: 85%;
         margin-bottom: 50px;
 
-    }
-    img{
+ }
+ img{
         width: 10%!important;
-    }
+ }
 
 
 .home-recovery{
