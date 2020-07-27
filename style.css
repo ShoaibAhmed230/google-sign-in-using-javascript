@@ -209,7 +209,9 @@ input:hover{
         text-align: center;
         width: 85%;
         margin-bottom: 50px;
-        display: flex
+        display: flex;
+        justify-content: center
+        
 
  }
  img{
