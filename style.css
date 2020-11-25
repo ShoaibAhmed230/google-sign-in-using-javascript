@@ -178,7 +178,7 @@ input:hover{
     width: 100%;
 }
 .hint strong{
-    background: #DADCE0;
+    background: #000;
 
 }
 /* @media screen and (min-width:481px){
